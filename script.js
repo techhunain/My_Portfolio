@@ -35,6 +35,6 @@ function clearFields(event) {
   form.reset();
 
   // Optional: Notify the user
-  alert('Form submitted successfully!');
+  swal("Submitted Successfully", "You clicked the button!", "success");
 }
 
